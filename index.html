@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Kaik Nunes">
+    <title>Gata Mineira Jeans</title>
+
+    <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="fontawesome/css/brands.css" rel="stylesheet">
+    <link href="fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+    <link rel="icon" href="../imagens/icone2.png">
+    
+
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  
+      <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <a href="https://api.whatsapp.com/send?l=pt&amp;phone=5531971938604">
+    <img src="../imagens/wpp.png" style="height:64px; position:fixed; bottom: 25px; right: 100px; z-index:99999;" data-selector="img"></a>
+
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="../imagens/logo.png" width="230px" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#">Produtos</a>
+          </li>
+          <!--
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+          -->
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Digite aqui..." aria-label="Search">
+          <button class="btn btn-outline-warning" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../imagens/roxo.jpg" width="100%">
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>O estilo está em você.</h1>
+            <p>Do casual ao elegante</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Ver mais</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../imagens/rosa.jpg" width="100%">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Se cuidar é importante!</h1>
+            <p>E não há maneira melhor do que enchendo o guarda roupa</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Comprar</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../imagens/amarelo.jpg" width="100%">
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>A moda ideal para elas.</h1>
+            <p>Aqui você encontra a roupa perfeita para você</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Ver mais</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="../imagens/verao.png  " class="rounded-circle" width="140" height="140">
+
+        <h2 class="fw-normal">Moda Verão</h2>
+        <p>Novidades para o verão</p>
+        <p><a class="btn btn-secondary" href="#">Veja Mais &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="../imagens/jeans.png" class="rounded-circle" width="140" height="140">
+
+        <h2 class="fw-normal">Jeans</h2>
+        <p>Especialidade da casa</p>
+        <p><a class="btn btn-secondary" href="#">Veja Mais &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="../imagens/black.jpg" class="rounded-circle" width="140" height="140">
+
+        <h2 class="fw-normal">Black Friday</h2>
+        <p>Preços promocionais</p>
+        <p><a class="btn btn-secondary" href="#">Veja Mais &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Conheça nossa loja!</h2>
+        <p class="lead">Impossivel não se apaixonar.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="../imagens/fachada.png" width="500px" height="500px">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Venha nos visitar!</h2>
+        <p class="lead">Não deixe pra depois o que você pode comprar hoje.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <div id="mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120036.43625654942!2d-44.185827651488424!3d-19.918562002907468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6959a6d43802f%3A0xe92f0b531f39dcca!2sGata%20Mineira%20Modas!5e0!3m2!1spt-BR!2sbr!4v1669242910827!5m2!1spt-BR!2sbr" width="500px" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      </div>
+    </div>
+
+    
+    <!--
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+    -->
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Voltar ao inicio</a></p>
+    <p> &copy; Gata Mineira Jeans 2022  </p>
+    
+    <a title="Instagram" href="#"><i class="cor-icone fa-brands fa-instagram-square fa-3x"></i></a>
+    <a title="Facebook" href="#"><i class="cor-icone fa-brands fa-facebook-square fa-3x"></i></a>
+		<a title="Youtube" href="#"><i class="cor-icone fa-brands fa-youtube-square fa-3x"></i></a>
+		<a title="LinkedIn" href="#"><i class="cor-icone fa-brands fa-linkedin fa-3x"></i></a>
+		
+  </footer>
+</main>
+
+    <script src="https://kit.fontawesome.com/03a46e6267.js" crossorigin="anonymous"></script>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
